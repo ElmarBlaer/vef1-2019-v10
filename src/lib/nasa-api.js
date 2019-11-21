@@ -24,7 +24,7 @@ function getDate() {
   const mm = date.getMonth();
   const yyyy = date.getFullYear();
 
-  return `${yyyy}-${mm}-${dd}`;
+  return `${yyyy}-${mm + 1}-${dd}`;
 }
 
 export default async function getRandomImage() {
